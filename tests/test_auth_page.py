@@ -11,4 +11,4 @@ def test_authorisation(web_browser):
 
     page.btn.click()
 
-    assert page.get_current_url() == 'http://petfriends1.herokuapp.com/all_pets'
+    assert page.get_current_url() == 'https://petfriends.skillfactory.ru/all_pets'
