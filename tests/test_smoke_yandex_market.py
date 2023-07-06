@@ -20,7 +20,7 @@
 #
 
 import pytest
-from pages.yandex import MainPage
+from ..pages.yandex import MainPage
 
 
 def test_check_main_search(web_browser):
